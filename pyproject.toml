@@ -5,9 +5,25 @@ description = "Add your description here"
 authors = [
     { name = "Paolo Sofia", email = "paolosofia6@gmail.com" }
 ]
-dependencies = []
+dependencies = [
+    "python-dotenv>=1.0.1",
+    "notebook>=7.1.2",
+    "numpy>=1.26.4",
+    "pandas>=2.2.2",
+    "polars>=0.20.21",
+    "matplotlib>=3.8.4",
+    "seaborn>=0.13.2",
+    "plotly>=5.20.0",
+    "scikit-learn>=1.4.2",
+    "lightgbm>=4.3.0",
+    "mlflow>=2.12.1",
+    "setuptools>=69.5.1",
+    "onnx>=1.16.0",
+    "skl2onnx @ git+https://github.com/onnx/sklearn-onnx.git",
+    "onnxruntime>=1.17.3",
+]
 readme = "README.md"
-requires-python = ">= 3.8"
+requires-python = ">= 3.11"
 
 [build-system]
 requires = ["hatchling"]
